@@ -50,9 +50,9 @@ priorityCards.forEach((card) => {
   card.addEventListener("click", () => {
     priorityCards.forEach((item) => item.classList.toggle("is-selected", item === card));
 
-    priorityTitle.textContent = card.dataset.title;
-    priorityCopy.textContent = card.dataset.copy;
-    priorityNote.textContent = card.dataset.note;
+    if (priorityTitle) priorityTitle.textContent = card.dataset.title;
+    if (priorityCopy) priorityCopy.textContent = card.dataset.copy;
+    if (priorityNote) priorityNote.textContent = card.dataset.note;
   });
 });
 
