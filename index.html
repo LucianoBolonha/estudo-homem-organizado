@@ -7,174 +7,190 @@
   <title>Como Ser Um Homem Organizado | Pastor Fernando</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#inicio" aria-label="Voltar ao inicio">
-      <span class="brand-mark">H&P</span>
+      <span class="brand-mark">HP</span>
       <span>Homens &amp; Plena</span>
     </a>
 
     <nav class="site-nav" aria-label="Navegacao principal">
-      <a href="#conteudo">Conteudo</a>
-      <a href="#metodo">Metodo</a>
-      <a href="#prioridades">Prioridades</a>
+      <a href="#conteudo" data-nav-link>Conteudo</a>
+      <a href="#metodo" data-nav-link>Metodo</a>
+      <a href="#prioridades" data-nav-link>Prioridades</a>
+      <a href="#acessar" data-nav-link>Acessar</a>
     </nav>
 
-    <a class="header-cta" href="#acessar">Acessar estudo</a>
+    <a class="header-cta" href="#acessar">Abrir estudo</a>
   </header>
 
   <main id="inicio">
-    <section class="hero section-band">
+    <section class="hero" data-section>
       <div class="hero-copy" data-reveal>
-        <p class="eyebrow">Ministracao do Pastor Fernando</p>
-        <h1>Como Ser Um Homem Organizado</h1>
+        <p class="eyebrow">Estudo ministrado pelo Pastor Fernando</p>
+        <h1>Como ser um homem organizado em uma vida cheia de demandas</h1>
         <p class="hero-lead">
-          Um estudo sobre diligencia, vida com Deus, familia e chamado para homens que desejam trocar o caos por uma vida intencional.
+          Uma experiencia clara, pratica e biblica para sair do improviso, proteger prioridades e transformar intencao em atitude.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#acessar">Iniciar estudo</a>
-          <a class="button button-secondary" href="#conteudo">Ver aprendizados</a>
+          <a class="button button-primary" href="#acessar">Acessar material</a>
+          <a class="button button-light" href="#metodo">Conhecer metodo</a>
         </div>
       </div>
 
-      <aside class="hero-panel" aria-label="Resumo do estudo" data-reveal>
-        <p class="panel-kicker">Tema central</p>
-        <blockquote>
-          Sem intencionalidade, a vida tende ao caos. Com diligencia, o homem aprende a proteger o que Deus confiou a ele.
-        </blockquote>
-        <div class="panel-meta">
-          <span>Homens &amp; Plena</span>
-          <span>27/05</span>
+      <aside class="hero-dashboard" aria-label="Resumo interativo do estudo" data-reveal>
+        <div class="dashboard-head">
+          <span>Roteiro do estudo</span>
+          <strong>27/05</strong>
+        </div>
+        <div class="focus-ring" aria-hidden="true">
+          <span>3</span>
+          <small>prioridades</small>
+        </div>
+        <div class="mini-track">
+          <span style="--fill: 86%">Vida com Deus</span>
+          <span style="--fill: 74%">Familia</span>
+          <span style="--fill: 68%">Chamado</span>
         </div>
       </aside>
     </section>
 
-    <section class="verse-section" aria-labelledby="versiculo">
-      <div class="narrow" data-reveal>
-        <p class="section-label">Versiculo-chave</p>
-        <h2 id="versiculo">"O preguiçoso deseja e nada consegue, mas os desejos do diligente sao amplamente satisfeitos."</h2>
-        <p class="verse-ref">Proverbios 13:4</p>
-      </div>
+    <section class="stats-strip" aria-label="Resumo da proposta">
+      <article data-reveal>
+        <strong>01</strong>
+        <span>Versiculo para ancorar decisoes</span>
+      </article>
+      <article data-reveal>
+        <strong>03</strong>
+        <span>Passos para organizar desejos e demandas</span>
+      </article>
+      <article data-reveal>
+        <strong>03</strong>
+        <span>Areas inegociaveis para proteger</span>
+      </article>
     </section>
 
-    <section id="conteudo" class="content-section">
+    <section id="conteudo" class="content-section" data-section>
       <div class="section-heading" data-reveal>
-        <p class="section-label">O que voce vai encontrar</p>
-        <h2>Uma jornada pratica da ordem ao proposito</h2>
+        <p class="section-label">Conteudo do estudo</p>
+        <h2>Organizacao como mordomia, nao como peso</h2>
         <p>
-          O estudo organiza a mensagem em principios biblicos e decisoes simples para aplicar na rotina, na casa e no chamado.
+          O estudo conecta espiritualidade, familia e chamado com uma rotina mais objetiva, sem perder leveza e proposito.
         </p>
       </div>
 
-      <div class="card-grid">
-        <article class="study-card" data-reveal>
-          <span class="card-number">01</span>
-          <h3>A teologia da ordem</h3>
-          <p>
-            Entenda por que a vida sem direcao se espalha em desordem e como a cruz chama o homem a viver para Cristo.
-          </p>
+      <div class="learning-grid">
+        <article class="learning-card card-cyan" data-reveal>
+          <span class="card-tag">clareza</span>
+          <h3>A vida tende ao caos</h3>
+          <p>Sem intencionalidade, relacionamentos, agenda, corpo, casa e trabalho se espalham em desordem.</p>
         </article>
-
-        <article class="study-card" data-reveal>
-          <span class="card-number">02</span>
-          <h3>Diligencia na pratica</h3>
-          <p>
-            Planejar, registrar e agir com zelo deixam de ser tarefas frias e viram mordomia sobre tempo, energia e recursos.
-          </p>
+        <article class="learning-card card-green" data-reveal>
+          <span class="card-tag">acao</span>
+          <h3>Diligencia e movimento</h3>
+          <p>Desejo sozinho nao organiza a vida. Diligencia transforma conviccao em proxima acao.</p>
         </article>
-
-        <article class="study-card" data-reveal>
-          <span class="card-number">03</span>
-          <h3>Prioridades protegidas</h3>
-          <p>
-            O homem organizado aprende a dizer sim e nao a partir do que nao pode ser negociado diante de Deus.
-          </p>
+        <article class="learning-card card-blue" data-reveal>
+          <span class="card-tag">legado</span>
+          <h3>Prioridades antes de urgencias</h3>
+          <p>O homem organizado aprende a dizer nao quando uma demanda ameaca o que Deus confiou a ele.</p>
         </article>
       </div>
     </section>
 
-    <section id="metodo" class="method-section">
+    <section id="metodo" class="method-section" data-section>
       <div class="section-heading centered" data-reveal>
-        <p class="section-label">Metodo do estudo</p>
-        <h2>Reconhecer, Avaliar e Organizar</h2>
-        <p>
-          Um filtro simples para desejos, demandas e responsabilidades nao governarem a sua vida sem direcao.
-        </p>
+        <p class="section-label">Metodo pratico</p>
+        <h2>Reconhecer, avaliar e organizar</h2>
+        <p>Use as abas para navegar pelos tres movimentos do estudo.</p>
       </div>
 
-      <div class="steps">
-        <article class="step" data-reveal>
-          <span>1</span>
-          <div>
-            <h3>Reconhecer</h3>
-            <p>Nomeie desejos, ansiedades e tarefas. O que fica escondido tende a governar por impulso.</p>
-          </div>
-        </article>
+      <div class="method-shell" data-reveal>
+        <div class="method-tabs" role="tablist" aria-label="Metodo de organizacao">
+          <button class="method-tab is-active" type="button" role="tab" aria-selected="true" data-method-tab="reconhecer">Reconhecer</button>
+          <button class="method-tab" type="button" role="tab" aria-selected="false" data-method-tab="avaliar">Avaliar</button>
+          <button class="method-tab" type="button" role="tab" aria-selected="false" data-method-tab="organizar">Organizar</button>
+        </div>
 
-        <article class="step" data-reveal>
-          <span>2</span>
-          <div>
-            <h3>Avaliar</h3>
-            <p>Pergunte se aquilo glorifica a Deus, preserva sua familia e se alinha ao chamado que voce recebeu.</p>
-          </div>
-        </article>
-
-        <article class="step" data-reveal>
-          <span>3</span>
-          <div>
-            <h3>Organizar</h3>
-            <p>Coloque data, defina a proxima acao e avance com constancia. Uma acao diaria muda a direcao da vida.</p>
-          </div>
-        </article>
+        <div class="method-panels">
+          <article class="method-panel is-active" role="tabpanel" data-method-panel="reconhecer">
+            <span class="panel-number">01</span>
+            <h3>Nomeie o que esta competindo pelo seu coracao.</h3>
+            <p>Desejos, demandas, ansiedades e ideias precisam sair da nebulosidade. O que voce reconhece pode ser liderado.</p>
+          </article>
+          <article class="method-panel" role="tabpanel" data-method-panel="avaliar">
+            <span class="panel-number">02</span>
+            <h3>Passe cada desejo pelo filtro correto.</h3>
+            <p>Isso glorifica a Deus? Protege minha familia? Fortalece meu chamado? Nem todo desejo merece agenda.</p>
+          </article>
+          <article class="method-panel" role="tabpanel" data-method-panel="organizar">
+            <span class="panel-number">03</span>
+            <h3>Transforme direcao em uma proxima acao.</h3>
+            <p>Coloque data, reduza ao primeiro passo e avance com constancia. Uma acao diaria muda uma trajetoria.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="prioridades" class="content-section">
+    <section id="prioridades" class="priority-section" data-section>
       <div class="section-heading" data-reveal>
         <p class="section-label">Areas inegociaveis</p>
-        <h2>O que nao pode perder lugar</h2>
-        <p>
-          O estudo chama cada homem a organizar a agenda ao redor das prioridades certas, nao apenas das urgencias mais barulhentas.
-        </p>
+        <h2>Tres prioridades que organizam o restante</h2>
+        <p>Clique em cada area para ver o foco de aplicacao.</p>
       </div>
 
-      <div class="priority-grid">
-        <article class="priority-card" data-reveal>
-          <h3>Vida com Deus</h3>
-          <p>O fundamento da vida organizada e uma relacao viva com Deus, sustentada por obediencia e dependencia.</p>
-        </article>
+      <div class="priority-layout">
+        <div class="priority-list" data-reveal>
+          <button class="priority-card is-selected" type="button" data-priority-card data-title="Vida com Deus" data-copy="O fundamento da vida organizada e uma relacao viva com Deus. Agenda, produtividade e chamado precisam nascer de dependencia, obediencia e presenca." data-note="Comece protegendo tempo de Palavra, oracao e obediencia pratica.">
+            <span>01</span>
+            <strong>Vida com Deus</strong>
+          </button>
+          <button class="priority-card" type="button" data-priority-card data-title="Familia" data-copy="A casa nao pode receber apenas o que sobra. O estudo chama o homem a liderar com presenca, conversa, cuidado e tempo intencional." data-note="Separe compromissos familiares antes de preencher a agenda com urgencias externas.">
+            <span>02</span>
+            <strong>Familia</strong>
+          </button>
+          <button class="priority-card" type="button" data-priority-card data-title="Chamado" data-copy="Dons e responsabilidades precisam ser cultivados com zelo. Um homem organizado trabalha com excelencia e pensa em fruto geracional." data-note="Defina uma acao pequena e repetivel que fortalece seu chamado nesta semana.">
+            <span>03</span>
+            <strong>Chamado</strong>
+          </button>
+        </div>
 
-        <article class="priority-card" data-reveal>
-          <h3>Familia</h3>
-          <p>A lideranca mais proxima precisa de presenca, cuidado, conversa e tempo protegido.</p>
-        </article>
-
-        <article class="priority-card" data-reveal>
-          <h3>Chamado</h3>
-          <p>Dons, vocacao e trabalho precisam ser cultivados com seriedade, excelencia e visao geracional.</p>
-        </article>
+        <aside class="priority-focus" data-reveal>
+          <p class="focus-label">Foco selecionado</p>
+          <h3 data-priority-title>Vida com Deus</h3>
+          <p data-priority-copy>
+            O fundamento da vida organizada e uma relacao viva com Deus. Agenda, produtividade e chamado precisam nascer de dependencia, obediencia e presenca.
+          </p>
+          <div class="focus-note">
+            <span>Aplicacao</span>
+            <strong data-priority-note>Comece protegendo tempo de Palavra, oracao e obediencia pratica.</strong>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="acessar" class="cta-section">
-      <div class="cta-box" data-reveal>
+    <section class="verse-callout" aria-labelledby="versiculo" data-reveal>
+      <p class="section-label">Versiculo-chave</p>
+      <h2 id="versiculo">"O preguiçoso deseja e nada consegue, mas os desejos do diligente sao amplamente satisfeitos."</h2>
+      <p>Proverbios 13:4</p>
+    </section>
+
+    <section id="acessar" class="cta-section" data-section>
+      <div class="cta-card" data-reveal>
         <p class="section-label">Comece agora</p>
-        <h2>Organizacao nao e rigidez. E mordomia.</h2>
-        <p>
-          Acesse o estudo, revise os pontos principais e use este material para transformar reflexao em atitude.
-        </p>
+        <h2>Organize o que Deus confiou a voce.</h2>
+        <p>Revise o estudo, aplique o metodo e escolha uma acao concreta para hoje.</p>
         <a class="button button-primary" href="#inicio">Acessar material do estudo</a>
-        <small>Link final do material pode ser conectado aqui quando a apresentacao estiver pronta.</small>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Homens &amp; Plena | Estudo ministrado pelo Pastor Fernando</p>
-    <p>&copy; <span data-year></span> - Material para edificacao e organizacao da vida.</p>
+    <p>Homens &amp; Plena | Pastor Fernando</p>
+    <p>&copy; <span data-year></span> - Estudo para edificacao e acao.</p>
   </footer>
 
   <script src="assets/js/main.js"></script>
